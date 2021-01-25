@@ -1,0 +1,47 @@
+body {
+    background: rgb(138, 212, 255);
+    font-family: arial;
+    text-align: center;
+}
+
+#wrapper {
+    width: 100%;
+    display: flex; /*controlling position*/
+    flex-direction: column; /*all items stacked*/
+    align-items: center; 
+}
+
+#wrapper div, #wrapper ul {
+    width: 50%;
+    max-width: 300px;
+}
+
+ul {
+    padding: 0px;
+}
+#title {
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    padding: 10px;
+}
+
+.alternative {
+    list-style-type: none;
+    margin-bottom: 4px;
+    padding: 10px;
+    background: rgb(211, 211, 211);
+}
+
+.alternative:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#result {
+    font-weight: bold;
+}
+
+#score, #result {
+    color: white;
+}
